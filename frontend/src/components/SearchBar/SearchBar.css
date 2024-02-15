@@ -1,0 +1,40 @@
+.input-wrapper {
+    padding: 0 15px;
+    background-color: white;
+    display: flex;
+    background-color: #e9e9e9;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .search-bar {
+    align-items: center;
+    display: flex;
+  }
+  
+  input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-family: "Newsreader";
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-left: 5px;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  #search-icon {
+    color: #515151;
+  }
+
+  .search-button button{
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: "Newsreader";
+    background-color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+.profile {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  
+  .profile-photo img {
+    float: left;
+    width: 400px;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+  }
+
+  .profile-info {
+    flex-grow: 1;
+    font-family: "Newsreader";
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .profile-info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .profile-info-header-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .profile-info-header-edit button {
+    font-size: 1.5rem;
+    font-family: "Newsreader";
+    background-color: white;
+    padding: 10px;
+    border: solid 1px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .profile-info-header-edit button:hover {
+    color: #E63333;
+}
+
+.profile-information {
+    vertical-align: 50%;
+}
+
+.profile-info-element {
+    padding : 5px;
+    font-weight: 300;
+    font-size: 1.4rem;    
+}

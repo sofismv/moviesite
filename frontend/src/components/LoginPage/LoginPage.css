@@ -1,0 +1,100 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.edit-profile-photo {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-profile-photo img {
+    float: left;
+    width: 400px;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    padding-bottom: 15px;
+}
+
+.form-photo-item input[type="file"],
+textarea {
+    font-size: 1.2rem;
+    font-family: "Newsreader";
+}
+
+.form-photo-item {
+        cursor: pointer;
+        font-size: 1.3rem;
+        font-family: "Newsreader";
+        outline: none;
+        cursor: pointer;
+    }
+
+.form-item {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Newsreader";
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item input {
+    padding: 10px;
+    float: right;
+    background-color: white;
+    display: flex;
+    background-color: #e9e9e9;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.profile-info-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.form-item button {
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: "Newsreader";
+    background-color: white;
+    border: solid 1px;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-item-change {
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-family: "Newsreader";
+}
+
+.form-item button:hover {
+    color: #E63333;
+}
+
+.login-form span {
+    color: #4285F4; 
+    cursor: pointer;
+}
+
+.login-form span:hover {
+    text-decoration: underline;
+}
+
+.form-error {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Newsreader";
+    display: flex;
+    flex-direction: column;
+    color: #E63333;
+}

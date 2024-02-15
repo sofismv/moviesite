@@ -1,0 +1,29 @@
+.film-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.film-search-result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.film-item-search {
+    flex: 1;
+}
+
+.film-search-result {
+    gap: 1rem;
+}
+
+.film-search-result button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 5px;
+    font-family: "Newsreader";
+    background-color: #729aff;
+    outline: none;
+    cursor: pointer;
+}
